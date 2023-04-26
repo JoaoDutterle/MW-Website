@@ -64,6 +64,30 @@ color: #d1e573;
     transform: translateX(10px);
 }
 
+#novidades{
+    background-image: url('img/A-AD21.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 1550px;
+    background-position-x: -100px;
+}
+
+.opacity-bg{ 
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+.texto-escondido{
+    opacity: 0;
+    transition: opacity 0.3s ease-in; 
+}
+.texto-escondido:hover {
+    opacity: 1; /* Define a opacidade como 1 para mostrar o texto quando o mouse passar sobre a região de trigger */
+    /* Ou utilize visibility: visible; para mostrar o texto */
+    /* visibility: visible; */
+}
+
+
 
 @media (min-width: 600px) {
     .video-caption {
