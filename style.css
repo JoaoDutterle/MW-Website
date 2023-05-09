@@ -13,6 +13,18 @@
     font-family: 'OCR A Std', monospace;
 }
 
+.caixa-dropdown{
+    background-color: #535c66;
+}
+
+.dropdown-menu{
+    background-color: #1d2124;
+}
+
+.dropdown-item{
+    color: white;
+}
+
 body { 
     overflow-x: hidden;
 }
