@@ -67,9 +67,8 @@ color: #d1e573;
 #novidades{
     background-image: url('img/A-AD21.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1500px;
     background-position: center;
-    background-size: 1550px;
     background-position-x: -100px;
 }
 
@@ -135,6 +134,15 @@ color: #d1e573;
     .first-button{
         margin-left: 290px;
     }
+
+    #novidades{
+        background-image: url('img/bg-small.png');
+        background-repeat: repeat;
+        background-size: 100%;
+        background-position: center;
+        background-position-x: -100px;
+    }
+    
 }
 
 
